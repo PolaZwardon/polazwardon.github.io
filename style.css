@@ -14,6 +14,12 @@
     display: flex;
 }
 
+/*----------- about---------------*/
+
+.about{
+    margin-top: 50px;
+}
+
 /*-----------Contact form---------------*/
 
 
@@ -27,6 +33,7 @@
 h1 {
     text-align: center;
     color: #a8a8a8;
+
 @include text-shadow(1px 1px 0 rgba(white, 1));
 }
 
@@ -69,9 +76,11 @@ textarea {
 .left {
     margin-right: 2%;
 }
+.form-container{
+    text-align: center;
+}
 
-
-@media (max-width: 480px) {
+@media (max-width: 722px) {
     .half {
         width: 100%;
         float: none;
