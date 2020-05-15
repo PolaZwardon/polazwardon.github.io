@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Dosis, serif;
+}
+.main{
+    width:100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to right, #E9E976 ,#BEE0E9);
+}
+#icon-container{
+    display: flex;
+}
+
+/*-----------Contact form---------------*/
+
+
+*,
+*:before,
+*:after {
+@include box-sizing(border-box);
+}
+
+
+h1 {
+    text-align: center;
+    color: #a8a8a8;
+@include text-shadow(1px 1px 0 rgba(white, 1));
+}
+
+form {
+    max-width: 600px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+input, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+#input-submit {
+    color: white;
+    background: #a8a8a8;
+    cursor: pointer;
+}
+
+textarea {
+    height: 126px;
+}
+
+.half {
+    float: left;
+    width: 48%;
+    margin-bottom: 1em;
+}
+
+.right { width: 50%; }
+
+.left {
+    margin-right: 2%;
+}
+
+
+@media (max-width: 480px) {
+    .half {
+        width: 100%;
+        float: none;
+        margin-bottom: 0;
+    }
+}
+
+
