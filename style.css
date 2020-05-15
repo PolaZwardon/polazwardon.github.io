@@ -17,9 +17,12 @@
 /*----------- about---------------*/
 
 .about{
-    margin-top: 50px;
+    margin-top: 30px;
+    width: 70%;
 }
-
+.projects{
+    margin-top: 70px;
+}
 /*-----------Contact form---------------*/
 
 
@@ -30,8 +33,14 @@
 }
 
 
+#title_header{
+    text-align:left;
+    font-size: 40px;
+    color: #a8a8a8;
+
+}
 h1 {
-    text-align: center;
+    text-align:center;
     color: #a8a8a8;
 
 @include text-shadow(1px 1px 0 rgba(white, 1));
